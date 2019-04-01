@@ -1,6 +1,5 @@
 # savage-initiative-tracker
 Savage Worlds RPG Initiative Tracker
-ReadMe - Savage Initiative
 Author - Parker Nalchajian
 Last Updated: 6/26/2018
 
