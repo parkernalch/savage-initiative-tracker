@@ -7,9 +7,7 @@ Last Updated: 6/26/2018
 Version - 1.0
 Language - Python 3.6
 
-//////////////////////////
-Application Functionality
-/////////////////////////
+## Application Functionality ##
 
 - Read in list of characters from file
 - Select combatant PCs from list at start of combat
@@ -61,9 +59,7 @@ Slow
 	- Deals cards to the character per the pertinent edges.
 	- Re-draws cards that are higher in value than a Ten, excluding Jokers (loop)
 	
-///////////////////////////////
 ## Unincorporated Long-Term Goals ##
-//////////////////////////////
 
 + Create host/client functionality to allow members of an adventuring party to
 	remotely connect to GM's host and receive cards.
