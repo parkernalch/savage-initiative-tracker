@@ -62,7 +62,7 @@ Slow
 	- Re-draws cards that are higher in value than a Ten, excluding Jokers (loop)
 	
 ///////////////////////////////
-Unincorporated Long-Term Goals
+## Unincorporated Long-Term Goals ##
 //////////////////////////////
 
 + Create host/client functionality to allow members of an adventuring party to
