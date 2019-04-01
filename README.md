@@ -24,41 +24,42 @@ Language - Python 3.6
 - Use any tactician card by clicking on it in the bottom bar
 
 ## EDGES ##
-Tactician
-	- Prompts for Knowledge(battle) roll from a single Tactician
-		+ ToDo: implement handler for multiple Tacticians
-	- Deals Tactician cards into persistent Tactician hand location
-	- User may discard/use tactician cards by clicking on them
-		+ ToDo: implement drag/drop or card assignment when using cards
-				List should re-sort after assignment
+### Tactician
+- Prompts for Knowledge(battle) roll from a single Tactician
+- Deals Tactician cards into persistent Tactician hand location
+- User may discard/use tactician cards by clicking on them
+**To Do**
++ implement handler for multiple Tacticians
++ implement drag/drop or card assignment when using cards
+		List should re-sort after assignment
 				
-Level Headed
-	- Deals two cards from the deck to the character's hand
-	- Calculates and displays best card from hand
-	- User may display all cards by clicking on the displayed initiative card
+### Level Headed
+- Deals two cards from the deck to the character's hand
+- Calculates and displays best card from hand
+- User may display all cards by clicking on the displayed initiative card
 
-Improved Level Headed
-		+ ToDo: restrict choice of edge to only those with Level Headed
-	- Deals three cards from the deck to the character's hand
-	- Calculates and displays the best card from hand
-	- User may display all cards by clicking on the displayed initiative card
+### Improved Level Headed
+- Deals three cards from the deck to the character's hand
+- Calculates and displays the best card from hand
+- User may display all cards by clicking on the displayed initiative card
+**To Do**
+- Restrict choice to only characters with Level Headed
 	
-	
-Quick
-	- Deals one card at a time to character, re-drawing lower than a Five
+### Quick
+- Deals one card at a time to character, re-drawing lower than a Five
 	
 ## POWERS ##
-Quickness (raise)
-	* No effect on initiative if quickness was not cast with a raise, so 
-	only trigger this if the casting was 4+ more than the TN
-	- Deals cards to the character per the pertinent edges. 
-	- Re-draws cards that are lower in value than an Eight (loop)
+### Quickness (raise)
+* No effect on initiative if quickness was not cast with a raise, so 
+only trigger this if the casting was 4+ more than the TN
+- Deals cards to the character per the pertinent edges. 
+- Re-draws cards that are lower in value than an Eight (loop)
 
-Slow
-	- Deals cards to the character per the pertinent edges.
-	- Re-draws cards that are higher in value than a Ten, excluding Jokers (loop)
+### Slow
+- Deals cards to the character per the pertinent edges.
+- Re-draws cards that are higher in value than a Ten, excluding Jokers (loop)
 	
-## Unincorporated Long-Term Goals ##
+# Unincorporated Long-Term Goals
 
 + Create host/client functionality to allow members of an adventuring party to
 	remotely connect to GM's host and receive cards.
